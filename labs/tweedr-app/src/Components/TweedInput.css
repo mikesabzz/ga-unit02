@@ -1,0 +1,20 @@
+input{
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 20px;
+    text-align: left;
+    box-shadow: 0 8px 6px -6px black;    
+    }
+    
+  button{
+    width: 15%;
+    margin-left: 2%;
+    height: 20px;
+    border: none;
+    background: #F29049;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  .post-form{
+    width: 60%;
+  }

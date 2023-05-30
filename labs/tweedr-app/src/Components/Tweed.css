@@ -1,0 +1,6 @@
+.post-msg{
+    background: rgb(235, 242, 247);
+    margin: 3% 5%;
+    min-height: 50px;
+    box-shadow: 0 8px 6px -6px black;
+  }

@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .header {
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+  color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .header input {
+  width: 50%;
+  margin: 15px auto;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.list-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 10px;
+  color: #f8f8f8;
+}
+
+.list-container .card .card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.list-container .card .card-section {
+  width: 50%;
+  font-size: 60px;
+}
